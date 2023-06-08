@@ -15,6 +15,8 @@ git status
 
 git commit -m "message"
 
+git commit -a -m "message" -= add and commit
+
 git diff -= to see the mofified file
 
 git restore --staged fileName -= to remove the file
@@ -25,3 +27,12 @@ git log -= to show all the commits
 
 git commit -m "message" --amend -= to change a commit you did a while ago
 
+git branch name -= to create a new branch
+
+git switch Branch name
+
+git switch -c Branch name -= create and switch
+
+git merge -m "message" branch name
+
+git branch -d branch name
