@@ -1,5 +1,5 @@
 # Git commends
-git config --global user.name "Ayoub"
+git config --global user.name "AyoubHA15"
 
 git config --global user.email infoayoub9@gmail.com
 
@@ -36,3 +36,13 @@ git switch -c Branch name -= create and switch
 git merge -m "message" branch name
 
 git branch -d branch name
+
+##push a repo
+
+git remote add origin https
+
+git branch -M main
+
+git push -u main
+
+git pull --rebase origin main
